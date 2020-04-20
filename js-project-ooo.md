@@ -2,9 +2,9 @@
 
 The JavaScript Project repo has a handful of helpful [READMEs](https://github.com/learn-co-students/js-spa-project-instructions-online-web-sp-000) that outline the requirements for the JS/Rails Project along with project planning tips and a note about what to expect during your review. There is also this [JavaScript Rails API Project Setup README](https://github.com/learn-co-curriculum/mod3-project-week-setup-example) that provides a thorough step by step walkthrough to get your project up and running along with some help OOJS refactoring tips. Lastly, we also wanted to outline a suggested flow of execution to aide you in building your project. We put together this "Order of Operations Guide" for organizing and completing your JS/Rails Project. This guide is based on the 4-part project build. All study groups can be found [here](https://learn.co/study-groups).
 
-The application we build in the project build is an "Syllabus Sharing App" for teachers.
+The application we will create during the project build series is a "Syllabus Sharing App" for independent study.
 
- **User story: A user should be able to login/sign up to post, edit, or delete their syllabi and/or see the syllabi of other users.**
+ **USER STORY: A user should be able to read and create syllabi based on category**
 
 ## Checklist
 
@@ -48,7 +48,7 @@ The application we build in the project build is an "Syllabus Sharing App" for t
 
 - [ ] 1. Name spaced routes
 - [ ] 2. Controllers rendering JSON based on routes
-- [ ] 3. Fast JSON Serializer 
+- [ ] 3. Fast JSON Serializer
 
 <!--
 

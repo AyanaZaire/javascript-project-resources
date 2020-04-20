@@ -33,7 +33,7 @@ Syllabus.create(title: "West African Art History", description: "West African cu
 ```
 
 ### Stretch Goals
-- Auth
+- Authentication + Authorization
     - User
       - name
       - email
