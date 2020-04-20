@@ -1,4 +1,4 @@
-# Rails API Order of Operations Guide
+# JS/Rails Order of Operations Guide
 
 The JavaScript Project repo has a handful of helpful [READMEs](https://github.com/learn-co-students/js-spa-project-instructions-online-web-sp-000) that outline the requirements for the JS/Rails Project along with project planning tips and a note about what to expect during your review. There is also this [JavaScript Rails API Project Setup README](https://github.com/learn-co-curriculum/mod3-project-week-setup-example) that provides a thorough step by step walkthrough to get your project up and running along with some help OOJS refactoring tips. Lastly, we also wanted to outline a suggested flow of execution to aide you in building your project. We put together this "Order of Operations Guide" for organizing and completing your JS/Rails Project. This guide is based on the 4-part project build. All study groups can be found [here](https://learn.co/study-groups).
 
@@ -21,25 +21,34 @@ The application we build in the project build is an "Syllabus Sharing App" for t
     - "A user should be able to ....."
     - What does your app _do_?
 - [ ] 4. Design your MVP = 'Minimum Viable Product' vs. what are my 'stretch goals'
-  - Stretch goals - bonus features you want but don't need
+    - Stretch goals - bonus features you want but don't need
 
-**NOW WE CODE (BUT JUST OUR MODELS — NO CONTROLLERS OR VIEWS)**
+**NOW WE'RE READY FOR PROJECT SET UP**
 
-- [ ] 5. Generate new project using [`rails s`](https://guides.rubyonrails.org/command_line.html#rails-server)
+- [ ] 5. Generate new [Rails API](https://edgeguides.rubyonrails.org/api_app.html) using `rails new <my_app_name> --database=postgresql --api`
+    - (Replace `<my_app_name>` with the actual name of your project)
 - [ ] 6. Create github repo
-- [ ] 7. Build your models
-  - Migrations
-  - Model classes
-  - Associations
-- [ ] 8. Test your models and associations in the console
-  - Create some seed data
-  - Adjust migrations as needed
+- [ ] 7. Create a new branch for building out models. This way you can always go back to the fresh API.
+    - **NOTE**: It is best practice to always create a new branch when working on a new feature/edit to your code. Your master branch should only have working code. Debug in a branch, not in master.
+
+**NOW WE'RE READY TO CODE (BUT JUST OUR MODELS — NO CONTROLLERS OR SERIALIZERS YET)**
+
+**NOTE**: Remember to _**VERTICALLY**_ build your MVP! This means building out one model/feature at a time. DO NOT build out _all_ the models and controllers at the same time. This is the easiest way to get lost in your project very early. Read more about this [here](https://github.com/learn-co-students/js-spa-project-instructions-online-web-sp-000/blob/master/project-planning-tips.md#build-vertically-not-horizontallys).
+
+- [ ] 8. Build your models
+    - Migrations
+    - Model classes
+    - Associations
+- [ ] 9. Test your models and associations in the console
+    - Create some seed data
+    - Adjust migrations as needed
 
 
-### PART 2: Models, Route, Controller
+### PART 2: Routes, Controllers, Serializers
 
-
-[STAY TUNED]
+- [ ] 1. Name spaced routes
+- [ ] 2. Controllers rendering JSON based on routes
+- [ ] 3. Fast JSON Serializer 
 
 <!--
 
